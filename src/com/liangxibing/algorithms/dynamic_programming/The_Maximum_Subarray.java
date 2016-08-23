@@ -9,7 +9,7 @@ import java.util.Scanner;
 public class The_Maximum_Subarray {
 
     /**
-     * Kadane&rsquo;s Algorithm:
+     * Kadane's Algorithm:
      *
      * Initialize:
      *     max_so_far = 0
@@ -24,8 +24,8 @@ public class The_Maximum_Subarray {
      * return max_so_far
      *
      * Below function has done some improvements which consider the case when all numbers in array are negative.
-     * @param array
-     * @return
+     * @param array the source array
+     * @return the maximum sum of contiguous sub-array
      */
     private static int maxContiguousSum(int[] array) {
         int max_so_far = array[0];
@@ -40,9 +40,9 @@ public class The_Maximum_Subarray {
     /**
      * For the case there is at least one positive number in the array plus all positive numbers and return sum;
      * For the case all numbers in array are negative select the largest one and return its value.
-     * @param i
-     * @param array
-     * @return
+     * @param i the current index
+     * @param array the source array
+     * @return the maximum sum of non-contiguous sub-array
      */
     private static int maxNonContiguousSum(int i, int[] array) {
         if (0 >= i)
