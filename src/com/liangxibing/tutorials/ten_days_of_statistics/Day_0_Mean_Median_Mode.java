@@ -6,6 +6,7 @@ import java.util.Scanner;
 
 /**
  * Created by liangxibing on 2016/8/17.
+ * Problem: https://www.hackerrank.com/challenges/s10-basic-statistics
  */
 public class Day_0_Mean_Median_Mode {
 

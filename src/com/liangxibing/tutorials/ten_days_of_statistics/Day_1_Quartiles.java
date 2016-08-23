@@ -6,6 +6,7 @@ import java.util.Scanner;
 
 /**
  * Created by liangxibing on 2016/8/18.
+ * Problem: https://www.hackerrank.com/challenges/s10-quartiles
  */
 public class Day_1_Quartiles {
 

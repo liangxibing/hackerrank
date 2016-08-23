@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 /**
  * Created by liangxibing on 2016/8/18.
+ * Problem: https://www.hackerrank.com/challenges/s10-weighted-mean
  */
 public class Day_0_Weighted_Mean {
 
