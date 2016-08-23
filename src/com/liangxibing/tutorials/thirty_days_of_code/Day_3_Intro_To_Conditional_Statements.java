@@ -6,7 +6,7 @@ import java.util.Scanner;
  * Created by liangxibing on 2016/8/23.
  * Problem: https://www.hackerrank.com/challenges/30-class-vs-instance
  */
-public class Day_3_Intro_to_Conditional_Statements {
+public class Day_3_Intro_To_Conditional_Statements {
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);

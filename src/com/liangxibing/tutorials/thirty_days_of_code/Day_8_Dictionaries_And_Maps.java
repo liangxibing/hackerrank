@@ -8,7 +8,7 @@ import java.util.Scanner;
  * Created by liangxibing on 2016/8/23.
  * Problem: https://www.hackerrank.com/challenges/30-dictionaries-and-maps
  */
-public class Day_8_Dictionaries_and_Maps {
+public class Day_8_Dictionaries_And_Maps {
 
     public static void main(String []argh){
         HashMap<String, Integer> phoneEntries = new HashMap<>();

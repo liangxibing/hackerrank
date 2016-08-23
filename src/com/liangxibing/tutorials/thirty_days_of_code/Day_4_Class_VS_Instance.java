@@ -34,7 +34,7 @@ class Day_4_Person {
     }
 }
 
-public class Day_4_Class_vs_Instance {
+public class Day_4_Class_VS_Instance {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

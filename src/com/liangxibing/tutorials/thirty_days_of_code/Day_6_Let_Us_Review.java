@@ -6,7 +6,7 @@ import java.util.Scanner;
  * Created by liangxibing on 2016/8/23.
  * Problem: https://www.hackerrank.com/challenges/30-review-loop
  */
-public class Day_6_Let_us_Review {
+public class Day_6_Let_Us_Review {
 
     public static void main(String[] args) {
         /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
