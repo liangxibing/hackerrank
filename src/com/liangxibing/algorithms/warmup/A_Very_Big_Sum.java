@@ -17,6 +17,7 @@ public class A_Very_Big_Sum {
             arr[arr_i] = in.nextLong();
             sum += arr[arr_i];
         }
+        in.close();
         System.out.println(sum);
     }
 }

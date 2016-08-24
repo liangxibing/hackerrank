@@ -24,6 +24,7 @@ public class Plus_Minus {
             else
                 ++zeros;
         }
+        in.close();
         System.out.println(String.format("%.6f", positive / n));
         System.out.println(String.format("%.6f", negative / n));
         System.out.println(String.format("%.6f", zeros / n));

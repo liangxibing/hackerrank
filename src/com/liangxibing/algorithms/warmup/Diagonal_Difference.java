@@ -17,6 +17,7 @@ public class Diagonal_Difference {
                 a[a_i][a_j] = in.nextInt();
             }
         }
+        in.close();
         int sum1 = 0;
         int sum2 = 0;
         for (int i = 0; i < n; ++i) {
