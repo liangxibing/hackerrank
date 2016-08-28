@@ -8,6 +8,12 @@ import java.util.Scanner;
  */
 public class Kangaroo {
 
+    /**
+     * If they'll ever land at the same location at the same time <=> x1 + k * v1 = x2 + k * v2, k is an positive integer
+     * <=> x2 - x1 = k * (v1 - v2)
+     * As x2 > x1, so the condition is v1 - v2 > 0 and x2 - x1 can be divided evenly by v1 - v2.
+     * @param args Not used
+     */
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int x1 = in.nextInt();
