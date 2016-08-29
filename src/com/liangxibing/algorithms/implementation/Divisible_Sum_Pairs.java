@@ -26,6 +26,7 @@ public class Divisible_Sum_Pairs {
         for(int i = 0; i < n; ++i){
             ++reminderArray[in.nextInt() % k];
         }
+        in.close();
         result += reminderArray[0] * (reminderArray[0] - 1) / 2;
         if (0 == k % 2)
             result += reminderArray[k / 2] * (reminderArray[k / 2] - 1) / 2;

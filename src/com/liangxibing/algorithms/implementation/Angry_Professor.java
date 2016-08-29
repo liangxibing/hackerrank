@@ -20,6 +20,7 @@ public class Angry_Professor {
                 a[a_i] = in.nextInt();
                 if (a[a_i] <= 0) ++inTime;
             }
+            in.close();
             System.out.println(inTime < k ? "YES" : "NO");
         }
     }

@@ -22,6 +22,7 @@ public class Cut_The_Sticks {
         for (int arr_i=0; arr_i < n; arr_i++){
             arr[arr_i] = in.nextInt();
         }
+        in.close();
         Arrays.sort(arr);
         int previous = 0;
         for (int i = 0; i < n; ++i) {

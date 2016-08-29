@@ -20,6 +20,7 @@ public class Kangaroo {
         int v1 = in.nextInt();
         int x2 = in.nextInt();
         int v2 = in.nextInt();
+        in.close();
         int distanceDiff = x2 - x1;
         int rateDiff = v1 - v2;
         String result = "NO";
