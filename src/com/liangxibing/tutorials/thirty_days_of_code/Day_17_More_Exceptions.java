@@ -7,7 +7,7 @@ import java.util.Scanner;
  * Problem: https://www.hackerrank.com/challenges/30-more-exceptions
  */
 //Write your code here
-class Calculator {
+class Day_17_Calculator {
     int power(int n, int p) throws Exception {
         if (n < 0 || p < 0) {
             throw new Exception("n and p should be non-negative");
@@ -25,7 +25,7 @@ public class Day_17_More_Exceptions {
         {
             int n = in.nextInt();
             int p = in.nextInt();
-            Calculator myCalculator = new Calculator();
+            Day_17_Calculator myCalculator = new Day_17_Calculator();
             try
             {
                 int ans=myCalculator.power(n,p);
