@@ -71,5 +71,6 @@ public class New_Year_Chaos {
             count = countBribes(q);
             System.out.println(-1 == count ? "Too chaotic" : count);
         }
+        in.close();
     }
 }

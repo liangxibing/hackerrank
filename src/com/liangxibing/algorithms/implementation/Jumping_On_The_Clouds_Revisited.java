@@ -23,6 +23,7 @@ public class Jumping_On_The_Clouds_Revisited {
         for(int c_i=0; c_i < n; c_i++){
             c[c_i] = in.nextInt();
         }
+        in.close();
         int E = 100;
         int position = 0;
         while (true) {
