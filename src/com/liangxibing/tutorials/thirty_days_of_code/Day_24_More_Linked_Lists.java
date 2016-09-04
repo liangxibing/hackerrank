@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 /**
  * Created by liangxibing on 2016/9/3.
- * Problem:
+ * Problem: https://www.hackerrank.com/challenges/30-linked-list-deletion
  */
 class Day_24_Node{
     int data;
