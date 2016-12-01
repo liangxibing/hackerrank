@@ -11,7 +11,7 @@ import java.util.Scanner;
 public class Arrays_Left_Rotation {
 
     private static int[] arrayLeftRotation(int[] a, int n, int k) {
-        int[] result = Arrays.copyOf(a, n);
+        int[] result = new int[n];
         for (int i = 0; i < n; ++i)
             result[i] = a[(i + k) % n];
         return result;
