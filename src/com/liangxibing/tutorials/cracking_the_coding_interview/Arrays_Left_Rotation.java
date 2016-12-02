@@ -1,6 +1,5 @@
 package com.liangxibing.tutorials.cracking_the_coding_interview;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 /**

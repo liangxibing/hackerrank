@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 /**
  * Created by liangxibing on 2/12/16.
- * https://www.hackerrank.com/challenges/ctci-making-anagrams
+ * Problem: https://www.hackerrank.com/challenges/ctci-making-anagrams
  */
 public class Strings_Making_Anagrams {
 
