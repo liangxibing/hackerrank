@@ -11,7 +11,7 @@ import java.util.Scanner;
  */
 public class Sparse_Arrays_DS {
 
-    static int findSuffix(String[] collections, String queryString) {
+    private static int findSuffix(String[] collections, String queryString) {
         int result = 0;
         for(String string: collections)
             if (string.equals(queryString))
