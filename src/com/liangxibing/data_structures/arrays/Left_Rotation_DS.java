@@ -1,4 +1,4 @@
-package com.liangxibing.data_structures;
+package com.liangxibing.data_structures.arrays;
 
 import java.util.Scanner;
 
