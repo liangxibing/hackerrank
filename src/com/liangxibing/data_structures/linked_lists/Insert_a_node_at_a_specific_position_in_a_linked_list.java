@@ -20,14 +20,13 @@ public class Insert_a_node_at_a_specific_position_in_a_linked_list {
             return result;
         }
 
-        Node tmp = head;
+        Node cur = head;
         // Once move one step, minus position by 1, until position = 1, which means only 1 step left
-        while (position-- > 1) {
-            tmp = tmp.next;
-        }
+        while (position-- > 1)
+            cur = cur.next;
         // Move the last step so that the inserted node will be the next of current node
-        result.next = tmp.next;
-        tmp.next = result;
+        result.next = cur.next;
+        cur.next = result;
         return head;
     }
 }
